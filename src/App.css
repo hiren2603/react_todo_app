@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@600&family=Overlock:ital@1&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Overlock', cursive;
+  font-weight: 600;
+  color: #555555;
+}
+.main{
+  display:flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 2rem;
+  flex-direction: column;
+  /* border: 2px solid #a7a7a7; */
+  box-shadow: 0px 3px 6px rgba(39, 39, 39, 0.6);
+  border-radius: 10px;
+  height: 80vh;
+  width: 30vw;  
+}
+h1{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-family: 'El Messiri', sans-serif;
+  text-shadow: 0px 3px 4px rgba(70, 70, 70, 0.6);
+  font-size: 2.5rem;
+  color: #2ba2f1;
+  
+}
+.input_text{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
+input{
+  font-family: 'Overlock', cursive;
+  padding: 0.5rem;
+  font-size: 1.3rem;
+  border: none;
+  outline:none;
+  border-bottom: 2px solid #c7c7c7;
+  /* border-radius: 10px; */
+  box-shadow: 0px 3px 10px rgba(233, 233, 233, 0.6);
+  font-weight: 400;
+  width: 20vw;
+}
+input:hover{
+  border-bottom: 2px solid #04d6a9;
+}
+.list{
+  display: flex;
+  align-self: flex-start;
+  margin-left: 2.5rem;
+  font-size: 1.3rem;
+  padding: 0.5rem;
+}
+ol{
+  list-style: none;
+}
+.list li{
+  font-family: 'Overlock', cursive;
+  padding: 0.5rem;
+  font-weight: 600;
+}
+
+.list_heading{
+  color: #1a91f3;
+  font-size: 1.3rem;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  position: relative;
+}
+.list_heading::after{
+  content: "";
+  width: 8rem;
+  bottom: -24%;
+  left: 50%;
+  border-bottom: 1px solid #1a91f3;
+  box-shadow: 0px 2px 4px rgba(88, 88, 88, 0.6);
+  position: absolute;
+  transform: translateX(-50%);
+}
+.fa-plus-circle{
+  color: #3ec2ff;
+  margin-left: 10px;
+  font-size: 2.5rem;
+}
+.fa-plus-circle:hover{
+  color: #01e5f5;
+}
+button{
+  border: none;
+  background-color: transparent ;
+  
+}
+
+.todo_style{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.fa-times{
+  color: #f83667;
+}
+.fa-times:hover{
+  color: #dd0037;
+}
+
+
+ 
+  
+
